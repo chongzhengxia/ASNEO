@@ -165,7 +165,7 @@ def MultiIters(its, func, process):
         pool.close()
         pool.join()
 
-
+#                         false     10    0.1  bam  1       10
 def ProcessSJ(junc_file, columns, reads, psi, bam, rpkm, process):
     logging.info("Begin Junction to Isoform Process ...")
     sj = FormatJunc(junc_file=junc_file, columns=columns)
